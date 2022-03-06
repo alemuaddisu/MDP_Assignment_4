@@ -123,15 +123,4 @@ class MainActivity : AppCompatActivity() {
         Toast.makeText(this, message, Toast.LENGTH_LONG).show()
     }
 
-    fun composeEmail(addresses: Array<String>, subject: String) {
-        val intent = Intent(Intent.ACTION_SEND).apply {
-            type = "*/*"
-            putExtra(Intent.EXTRA_EMAIL, addresses)
-            putExtra(Intent.EXTRA_SUBJECT, subject)
-            putExtra(Intent.EXTRA_TEXT,"thsi is the text")
-        }
-        if (intent.resolveActivity(packageManager) != null) {
-            startActivity(intent)
-        }
-    }
 }
