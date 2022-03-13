@@ -34,12 +34,8 @@ class CategoryAdapter(val context: Context, val products: ArrayList<Product>) : 
             context.startActivity(intent)
         }
     }
-    
-
 
     override fun getItemCount(): Int = products.size
-
-
 
     inner class MyViewHolder(view: View?) : BaseViewHolder(view) {
 

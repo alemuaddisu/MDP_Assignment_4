@@ -1,14 +1,12 @@
 package com.miu.aalemu.walmart
 
-import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.recyclerview.widget.LinearLayoutManager
 import kotlinx.android.synthetic.main.activity_category.*
-import java.util.*
 import kotlin.collections.ArrayList
 
-class ElectronicsCategory : AppCompatActivity(){//}, CategoryAdapter.Callback {
+class ElectronicsCategory : AppCompatActivity(){
 
     var products:ArrayList<Product> = ArrayList()
 
@@ -29,11 +27,4 @@ class ElectronicsCategory : AppCompatActivity(){//}, CategoryAdapter.Callback {
         products.add(Product("VIZIO 70\" Class 4K","1298.00","Black",R.drawable.e3,3L,getString(R.string.description3)))
         products.add(Product("Epson WorkForce WF-2750","69.00","Black",R.drawable.e4,4L,getString(R.string.description4)))
     }
-//
-//    override fun onItemClicked(product: Product?) {
-//        val intent = Intent(this, DetailActivity::class.java)
-//        intent.putExtra("product", product)
-//        startActivity(intent)
-//    }
-
 }
