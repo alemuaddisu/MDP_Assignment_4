@@ -18,6 +18,7 @@ class ShoppingCategory : AppCompatActivity() {
     }
 
     fun imageClick(view: View){
-        Toast.makeText(this, "You have chosen the ${view.contentDescription.toString()} category of shopping", Toast.LENGTH_LONG).show()
+        startActivity(Intent(this, ElectronicsCategory::class.java))
+//        Toast.makeText(this, "You have chosen the ${view.contentDescription.toString()} category of shopping", Toast.LENGTH_LONG).show()
     }
 }
