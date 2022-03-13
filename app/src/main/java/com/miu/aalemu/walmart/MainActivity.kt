@@ -9,11 +9,11 @@ import androidx.activity.result.contract.ActivityResultContracts
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
-    var user:ArrayList<User> = ArrayList();
+    var user:ArrayList<User> = ArrayList()
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-
+        goToShopping("addisu@gmail.com")
         createInitialUsers()
 
         sign_in.setOnClickListener{

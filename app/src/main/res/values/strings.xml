@@ -19,4 +19,23 @@
     <string name="email_reg">Email address *</string>
     <string name="password_reg">Password *</string>
     <string name="create_reg">Create Account</string>
+
+    <string name="description1">Introducing the RCA Voyager 7-inch Google Certified Tablet.
+        Operating on Android\'s sweetest operating system yet, Android 6.0 (Marshmallow),
+        you can enjoy more of what the Google Play store has to offer.</string>
+    <string name="description2">Introducing the RCA Voyager 7-inch Google Certified Tablet.
+        Operating on Android\'s sweetest operating system yet, Android 6.0 (Marshmallow),
+        you can enjoy more of what the Google Play store has to offer</string>
+    <string name="description3">Introducing the RCA Voyager 7-inch Google Certified Tablet.
+        Operating on Android\'s sweetest operating system yet, Android 6.0 (Marshmallow),
+        you can enjoy more of what the Google Play store has to offer</string>
+    <string name="description4">Introducing the RCA Voyager 7-inch Google Certified Tablet.
+        Operating on Android\'s sweetest operating system yet, Android 6.0 (Marshmallow),
+        you can enjoy more of what the Google Play store has to offer</string>
+
+    <string name="walmart_number">Walmart Number: 1231</string>
+
+    <string name="detail_description">Item Description:\n</string>
+    <string name="divider">divider</string>
+
 </resources>
