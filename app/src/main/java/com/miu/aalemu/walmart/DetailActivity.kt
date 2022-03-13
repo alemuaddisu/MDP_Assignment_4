@@ -4,7 +4,6 @@ import android.annotation.SuppressLint
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import kotlinx.android.synthetic.main.activity_detail.*
-import kotlinx.android.synthetic.main.activity_shopping_category.*
 
 class DetailActivity : AppCompatActivity() {
 
